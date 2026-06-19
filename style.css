@@ -349,3 +349,62 @@ h1{
 
     font-weight:600;
 }
+
+
+
+/* =========================
+   다음 페이지 버튼
+========================= */
+
+.next-page{
+
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+
+    padding:60px 0 100px;
+}
+
+.next-btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 42px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-size:1rem;
+    font-weight:600;
+
+    color:#2c6db8;
+
+    background:rgba(255,255,255,.65);
+
+    border:1px solid rgba(180,210,240,.45);
+
+    backdrop-filter:blur(12px);
+
+    transition:.25s;
+}
+
+.next-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(80,140,220,.15);
+
+    background:rgba(255,255,255,.9);
+}
+
+
+
+
+
+
+
+
